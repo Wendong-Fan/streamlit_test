@@ -7,7 +7,7 @@ with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="langchain_search_api_key_openai", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
     
-st.title("🔎 Trubrics - Chat with me")
+st.title("🔎 Dr.Bob - Chat with me")
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
