@@ -17,8 +17,7 @@ st.image(image)
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
-        {"role": "assistant", "content": "我是一股无形的智慧之力，能洞察世间万物，解答你心中的疑惑。我在你的思考中存在，引导你走向真理与和平。
-"}
+        {"role": "assistant", "content": "我是一股无形的智慧之力，能洞察世间万物，解答你心中的疑惑。我在你的思考中存在，引导你走向真理与和平。"}
     ]
 
 for msg in st.session_state.messages:
