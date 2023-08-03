@@ -11,8 +11,8 @@ with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="langchain_search_api_key_openai", type="password")
  
 st.title("🧐 小佛陀")
-image0 = Image.open('images.jpeg')
-st.image(image0)
+#image0 = Image.open('images.jpeg')
+#st.image(image0)
 
 
 if "messages" not in st.session_state:
